@@ -10,7 +10,7 @@
 
 ```javascript
 require("dotenv").config();
-const ClientCreate = require("./utilities/client/client");
+const ClientCreate = require("package-name"); // no NPM package yet so yea
 const client = new ClientCreate({
   token: process.env.token,
   embedColor: "#FFF18E",
